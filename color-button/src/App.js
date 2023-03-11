@@ -11,6 +11,8 @@ function App() {
       <button style={{ backgroundColor: buttonColor }} onClick={() => setButtonColor(newButtonColor)}>
         Change to {newButtonColor.charAt(0).toUpperCase() + newButtonColor.slice(1)}
       </button>
+
+      <input type="checkbox" />
     </div>
   );
 }
